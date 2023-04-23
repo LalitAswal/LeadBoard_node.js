@@ -12,32 +12,32 @@ client
     console.log("err is ", err);
   });
 
-client.zAdd('leaderBoard', [
-  {
-    score: 45,
-    value: "mandeep",
-  },
-  {
-      value: "Ranjeet",
-    score: 89
-  },
-  {
-      value: "nikhil",
-    score: 78
-  },
-  {
-      value: "Manu",
-    score: 88
-  },
-  {
-    value: "sumit",
-    score: 56
-  },
-  {
-      value: "amit",
-    score: 96
-  }
-]);
+// client.zAdd('leaderBoard', [
+//   {
+//     score: 45,
+//     value: "mandeep",
+//   },
+//   {
+//       value: "Ranjeet",
+//     score: 89
+//   },
+//   {
+//       value: "nikhil",
+//     score: 78
+//   },
+//   {
+//       value: "Manu",
+//     score: 88
+//   },
+//   {
+//     value: "sumit",
+//     score: 56
+//   },
+//   {
+//       value: "amit",
+//     score: 96
+//   }
+// ]);
 
 console.log('checking redis line 42')
 
@@ -48,6 +48,6 @@ console.log('checking redis line 42')
 //   console.log(memberWithScore);
 // }
 
-client.quit();
+// client.quit();
 
 module.exports = client;
